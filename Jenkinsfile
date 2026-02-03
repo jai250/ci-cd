@@ -15,7 +15,7 @@ pipeline {
         }
         stage("check") {
             steps {
-                sh '''s
+                sh '''
                    pwd
                    ls -lrta
                 '''
