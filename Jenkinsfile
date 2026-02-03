@@ -7,7 +7,7 @@ pipeline {
                     $class: 'GitSCM',
                     branches: [[name: '*/main']],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/jai250/ci-cd.git',
+                        url: 'https://github.com/jai250/shell-scripting-personal.git',
                         credentialsId: 'your-credentials-id'
                     ]]
                 ])
